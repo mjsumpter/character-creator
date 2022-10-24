@@ -2,10 +2,10 @@ html,
 body,
 #root {
   height: 100%;
+  background: linear-gradient(180deg, hsl(180deg, 25%, 92%) 60%, hsl(195deg, 20%, 86%) 60%) fixed;
 }
 
 body {
-  background-color: hsl(180deg, 25%, 92%);
   margin: 0;
 }
 
