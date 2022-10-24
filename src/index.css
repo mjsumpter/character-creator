@@ -1,8 +1,8 @@
 html,
 body,
 #root {
-  height: 100%;
   background: linear-gradient(180deg, hsl(180deg, 25%, 92%) 60%, hsl(195deg, 20%, 86%) 60%) fixed;
+  height: 100%;
 }
 
 body {
@@ -12,8 +12,8 @@ body {
 *,
 *:before,
 *:after {
-  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 /*
@@ -21,12 +21,12 @@ body {
   while still keeping it available for screen-readers.
 */
 .visually-hidden {
-  position: absolute;
-  overflow: hidden;
+  border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
-  width: 1px;
   margin: -1px;
+  overflow: hidden;
   padding: 0;
-  border: 0;
+  position: absolute;
+  width: 1px;
 }
